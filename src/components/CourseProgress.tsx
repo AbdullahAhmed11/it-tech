@@ -21,15 +21,8 @@ function LinearProgressWithLabel(props: LinearProgressProps & { value: number })
 
 export default function CourseProgress() {
   const [progress, setProgress] = React.useState(60);
+console.log("CourseProgress", setProgress);
 
-  // React.useEffect(() => {
-  //   const timer = setInterval(() => {
-  //     setProgress((prevProgress) => (prevProgress >= 100 ? 10 : prevProgress + 10));
-  //   }, 800);
-  //   return () => {
-  //     clearInterval(timer);
-  //   };
-  // }, []);
 
   return (
     <Box sx={{ width: '100%' }}>

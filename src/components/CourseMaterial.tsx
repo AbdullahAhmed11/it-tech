@@ -1,4 +1,3 @@
-import React from 'react'
 import { GoClock } from "react-icons/go";
 import { MdPlayLesson } from "react-icons/md";
 import { FaBookOpenReader } from "react-icons/fa6";
